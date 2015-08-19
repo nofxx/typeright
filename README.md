@@ -24,7 +24,9 @@ Because -> this! And => this!
 Into this:
 
 ```
-
+And so… “Why?” — He replied.
+Because → It’s cool! And ⇒ I like beautiful text!’.
+Also, notice some math: π + 2 × 180 ÷ 2.
 ```
 
 ## Install
@@ -37,9 +39,23 @@ Into this:
     Typeright.s(a_text)
 
 
-http://kyleamathews.github.io/typography.js/#/?googleFonts%5B%5D%5Bname%5D=Lato&googleFonts%5B%5D%5Bstyles%5D%5B%5D=100&googleFonts%5B%5D%5Bstyles%5D%5B%5D=400&googleFonts%5B%5D%5Bstyles%5D%5B%5D=700&googleFonts%5B%5D%5Bstyles%5D%5B%5D=900&headerFontFamily=Lato%2C%20sans-serif&bodyFontFamily=Lato%2C%20sans-serif&showVerticalRhythmGrid=false
+## Todo
+
+- Spaces
+
+## Won't Do
+
+Non UTF-8 modifications. Eg. `Small Caps`.
+
+For that complement with a client-side lib:
 
 
 Inspiration and thanks
 
 https://github.com/davidmerfield/Typeset
+
+
+## Also nice
+
+http://webtypography.net/
+http://kyleamathews.github.io/typography.js/#/

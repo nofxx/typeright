@@ -19,7 +19,7 @@ end
 
 FOR_README = <<TXT
 And so... "Why?" -- He replied.
-Because -> someone did in JS! And => I like beautiful text!'.
+Because -> It's cool! And => I like beautiful text!'.
 Also, notice some math: Pi + 2 * 180 / 2.
 TXT
 
