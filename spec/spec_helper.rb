@@ -20,7 +20,7 @@ end
 FOR_README = <<TXT
 And so... "Why?" -- He replied.
 Because -> someone did in JS! And => I like beautiful text!'.
-Also, notice some math: Pi x 180 / 2.
+Also, notice some math: Pi + 2 * 180 / 2.
 TXT
 
 RSpec.configure do |config|

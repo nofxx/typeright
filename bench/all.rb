@@ -28,6 +28,6 @@ It took me another year, but now I think it's really really good, mostly because
 DOC
 
 Benchmark.bmbm do |b|
-  b.report { N.times {  x = Typeright.s(P1) } }
-  b.report { N.times {  x = Typeright.s(P2) } }
+  b.report { N.times { Typeright.s(P1) } }
+  b.report { N.times { Typeright.s(P2) } }
 end

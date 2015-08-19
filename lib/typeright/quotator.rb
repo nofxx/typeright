@@ -3,7 +3,7 @@ module Typeright
   module Quotator
     def self.work(txt)
       txt
-        .gsub(/(\W|^)"(\S)/, '\1“\2') # beginning "
+        .gsub(/(\W|^)"(\w)/, '\1“\2') # beginning "
         .gsub(/(“[^"]*)"([^"]*$|[^“"]*“)/, '\1”\2') # ending "
         .gsub(/([^0-9])"/, '\1”') # remaining " at end of word
         .gsub(/(\W|^)'(\S)/, '\1‘\2') # beginning '
