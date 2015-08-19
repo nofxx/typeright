@@ -15,6 +15,9 @@ Gem::Specification.new do |s|
   s.summary     = 'Make text UTF-8 beautiful'
   s.license     = 'MIT'
 
+  s.executables = ['typeright']
+  s.default_executable = 'typeright'
+
   s.files = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ['lib']

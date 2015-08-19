@@ -47,7 +47,8 @@ describe Typeright do
     'by 50 more reviewers...' => 'by 50 more reviewers…',
     'So "Why don\'t you" -- implied' => "So “Why don’t you” — implied",
     'So "Why don\'t you?"' => "So “Why don’t you?”",
-    'So "Why don\'t you?".' => "So “Why don’t you”"
+    'So "Why don\'t you".' => "So “Why don’t you”.",
+    'So "Why don\'t you?".' => "So “Why don’t you?”."
   }.each do |k, v|
     it "should work nice with #{k} -> #{v}" do
       expect(Typeright.s(k)).to eq(v)

@@ -1,6 +1,7 @@
 # require 'pry'
 # require 'yaml'
 require 'typeright/version'
+require 'typeright/cli'
 
 # Typeright!
 module Typeright
