@@ -1,14 +1,20 @@
 # TypeRight
 
-    ________________________________________________________________
-            ______                       ____
-              /                          /    )   ,         /
-    ---------/---------------__----__---/___ /--------__---/__--_/_-
-            /      /   /   /   ) /___) /    |   /   /   ) /   ) /
-    _______/______(___/___/___/_(___ _/_____|__/___(___/_/___/_(_ __
-                     /   /                            /
-                 (_ /   /                         (_ /
+    ____________________________________________________________________________
+                        ______                       ____
+                          /                          /    )   ,         /
+    ---------------------/---------------__----__---/___ /--------__---/__--_/_-
+                        /      /   /   /   ) /___) /    |   /   /   ) /   ) /
+    ___________________/______(___/___/___/_(___ _/_____|__/___(___/_/___/_(_ __
+                                 /   /                            /
+                             (_ /   /                         (_ /
 
+
+
+[![Gem Version](https://badge.fury.io/rb/typeright.svg)](http://badge.fury.io/rb/typeright)
+[![Build Status](https://secure.travis-ci.org/nofxx/typeright.svg)](http://travis-ci.org/nofxx/typeright)
+[![Code Climate](https://codeclimate.com/github/nofxx/typeright/badges/gpa.svg)](https://codeclimate.com/github/nofxx/typeright)
+[![Coverage Status](https://coveralls.io/repos/nofxx/typeright/badge.svg?branch=master&service=github)](https://coveralls.io/github/nofxx/typeright?branch=master)
 
 
 Makes text more pleasant for the eyes.
@@ -17,7 +23,7 @@ Makes text more pleasant for the eyes.
 Turns this:
 
 ```
-And so... "Why?" -- He replied
+And so... "Why?" -- He replied (+)
 Because -> this! And => this!
 Also, notice some math: Pi + 2 * 180 / 2.
 ```
