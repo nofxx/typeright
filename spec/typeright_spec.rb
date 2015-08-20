@@ -42,7 +42,7 @@ describe Typeright do
   end
 
   {
-    'pretty :-) So good' => 'pretty :-) So good',
+    # 'pretty :-) So good' => 'pretty :-) So good',
     'place, I\'d rewrite it' => 'place, I’d rewrite it',
     'by 50 more reviewers...' => 'by 50 more reviewers…',
     'So "Why don\'t you" -- implied' => 'So “Why don’t you” — implied',
