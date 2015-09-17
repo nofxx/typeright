@@ -24,17 +24,17 @@ Turns this:
 
 ```
 And so... "Why?" -- He replied (+)
-Because -> this! And => this!
+Because -> It's cool! And => I like beautiful text!
 Also, notice some math: Pi + 2 * 180 / 2.
 ```
 
 Into this:
 
-```
-And so… “Why?” — He replied.
-Because → It’s cool! And ⇒ I like beautiful text!.
-Also, notice some math: π + 2 × 180 ÷ 2.
-```
+
+> And so… “Why?” — He replied.
+> Because → It’s cool! And ⇒ I like beautiful text!
+> Also, notice some math: π + 2 × 180 ÷ 2.
+
 
 ## Install
 
@@ -66,3 +66,4 @@ https://github.com/davidmerfield/Typeset
 
 http://webtypography.net/
 http://kyleamathews.github.io/typography.js/#/
+http://htmlarrows.com/
