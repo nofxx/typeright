@@ -1,11 +1,11 @@
 # require 'pry'
 # require 'yaml'
 require 'typeright/version'
-require 'typeright/cli'
 
 # Typeright!
 module Typeright
   # autoload :Hyphenator, 'typeright/hyphenator'
+  autoload :CLI,        'typeright/cli'
   autoload :Punctuator, 'typeright/punctuator'
   autoload :Quotator,   'typeright/quotator'
   autoload :Calculator, 'typeright/calculator'

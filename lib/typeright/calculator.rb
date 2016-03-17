@@ -2,6 +2,7 @@ module Typeright
   # Numbers and symbols replacement
   module Calculator
     class << self
+      # Arrows may conflict with math, so run em first
       def work(txt)
         math(arrows(txt))
       end
@@ -16,7 +17,7 @@ module Typeright
           .gsub(/(\w)\>\>(\s|$)/, '\1»\2')
       end
 
-      # Maybe (1) -> ① ⨉×
+      # Maybe (1) -> ① ⨉× √ µ
       def math(txt)
         txt
           .gsub(/(^|\s)Pi(\W)/, '\1π\2')
